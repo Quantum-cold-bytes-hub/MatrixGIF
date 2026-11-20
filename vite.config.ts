@@ -6,9 +6,11 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/MatrixGIF/', //Replace with your exact repo name
     plugins: [
       react(),
       tailwindcss(),
+      // ...keep the rest of existing config
       // Copies src/assets into dist/ so root-relative URLs like
       // "/src/assets/images/..." (e.g. generate_image output) still resolve
       // in production builds. Do not remove.
