@@ -1,0 +1,6 @@
+{
+  "name": "Matrix Portrait GIF Studio",
+  "description": "High-frame-rate Matrix digital rain portrait synthesizer and animated GIF generator with custom dark-shadow eyewear silhouettes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
